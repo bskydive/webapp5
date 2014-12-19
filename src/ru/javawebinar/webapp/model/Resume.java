@@ -1,13 +1,20 @@
 package ru.javawebinar.webapp.model;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
-/**
- * gkislin
- * 12.12.2014.
- */
 public class Resume {
     String fullName;
-    String[] some;
     Collection<String> collection;
+
+    private List<Experience> listExperience = new ArrayList<>();
+    private List<Education> listEducation = new ArrayList<>();
+    private Achievement achievement = new Achievement();
+    private Qualifications qualifications = new Qualifications();
+
+    public static void main(String[] args) {
+
+    }
+
 }
