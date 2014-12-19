@@ -11,8 +11,7 @@ public class ListDescription {
     }
 
     public ListDescription() {
-
-        this.listDescription.add("Empty Description");
+//        this.listDescription.add(this.listDescription.size()+". Empty Description");
     }
 
     public ArrayList<String> getListDescription() {

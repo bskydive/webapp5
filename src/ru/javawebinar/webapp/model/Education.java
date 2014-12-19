@@ -12,4 +12,14 @@ public class Education extends EventDescription {
     public Education(String name, String description, Date dateEndEvent) {
         super(name, description, null, dateEndEvent);
     }
+
+    @Override
+    public Date getDateBeginEvent() {
+        return null;
+    }
+
+    @Override
+    public void setDateBeginEvent(Date dateBeginEvent) {
+
+    }
 }
