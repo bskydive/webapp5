@@ -1,6 +1,6 @@
 package ru.javawebinar.webapp.model;
 
-import java.util.Collection;
+import java.util.List;
 
 /**
  * gkislin
@@ -9,5 +9,7 @@ import java.util.Collection;
 public class Resume {
     private String fullName;
     private String location;
+    private List<Contact> contacts;
+    private List<Section> sections;
 
 }
