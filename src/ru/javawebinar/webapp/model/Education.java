@@ -1,11 +1,15 @@
 package ru.javawebinar.webapp.model;
 
-import java.awt.*;
+import java.util.Date;
 
 public class Education extends EventDescription {
-    private Color bookColourEducation = null;
 
     public Education() {
-        super("Empty Education", "", null, null);
+
+        this("Empty Education Owner", "Empty Education Description", new Date());
+    }
+
+    public Education(String name, String description, Date dateEndEvent) {
+        super(name, description, null, dateEndEvent);
     }
 }
