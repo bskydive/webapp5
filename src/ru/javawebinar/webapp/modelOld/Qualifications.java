@@ -1,4 +1,4 @@
-package ru.javawebinar.webapp.model;
+package ru.javawebinar.webapp.modelOld;
 
 public class Qualifications extends ListDescription {
     public Qualifications() {

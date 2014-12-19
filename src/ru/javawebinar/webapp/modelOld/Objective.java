@@ -1,4 +1,4 @@
-package ru.javawebinar.webapp.model;
+package ru.javawebinar.webapp.modelOld;
 
 public class Objective {
 

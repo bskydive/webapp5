@@ -1,4 +1,4 @@
-package ru.javawebinar.webapp.model;
+package ru.javawebinar.webapp.modelOld;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
