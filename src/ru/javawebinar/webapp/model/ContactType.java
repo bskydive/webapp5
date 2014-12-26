@@ -5,10 +5,21 @@ package ru.javawebinar.webapp.model;
  * 26.12.2014.
  */
 public enum ContactType {
-    PHONE,
-    MOBILE,
-    HOME_PHONE,
-    SKYPE,
-    MAIL,
-    ICQ
+    PHONE("Тел."),
+    MOBILE("Мобильный"),
+    HOME_PHONE("Домашний тел."),
+    SKYPE("Skype"),
+    MAIL("Почта"),
+    ICQ("ICQ");
+
+    private String title;
+
+    ContactType(String title) {
+        this.title = title;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
 }
